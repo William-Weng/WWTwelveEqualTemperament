@@ -36,16 +36,16 @@ public extension WWTwelveEqualTemperament {
             
             for (scale, value) in element {
                 
-                guard let dict = value as? [String: String] else { continue }
+                guard let dict = value as? [String: String] else { return }
                 
                 let noteFrequency = baseFrequency * pow(2.0, Double(index) / 12.0)
                 let solfeggio = dict["solfeggio"]
                 let number = dict["number"]
                 
                 switch type {
-                case .scale: notesFrequency[scale] = noteFrequency; continue
-                case .solfeggio: if let solfeggio { notesFrequency[solfeggio] = noteFrequency }; continue
-                case .number: if let number { notesFrequency[number] = noteFrequency }; continue
+                case .scale: notesFrequency[scale] = noteFrequency
+                case .solfeggio: if let solfeggio { notesFrequency[solfeggio] = noteFrequency }
+                case .number: if let number { notesFrequency[number] = noteFrequency }
                 case .all:
                     notesFrequency[scale] = noteFrequency
                     if let solfeggio { notesFrequency[solfeggio] = noteFrequency }
