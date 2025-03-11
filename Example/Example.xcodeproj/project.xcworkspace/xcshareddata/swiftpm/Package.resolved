@@ -1,0 +1,15 @@
+{
+  "originHash" : "76a7c7dc5ffee0956d68b626731f13ec78f1adb721f2e685952f7a71f4211fb6",
+  "pins" : [
+    {
+      "identity" : "wwtwelveequaltemperament",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/William-Weng/WWTwelveEqualTemperament",
+      "state" : {
+        "revision" : "3baa1b8e04123f02f55012819ea1f51bb7508405",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}
