@@ -1,42 +1,42 @@
 {
   "12-Equal-Temperament": [
     {
-      "A": { "solfeggio": "la", "number": "6" }
+      "A": { "solfeggio": "La", "number": "6" }
     },
     {
-      "A#": { "solfeggio": "la#", "number": "6#" },
-      "Bb": { "solfeggio": "si#", "number": "7b" }
+      "A#": { "solfeggio": "La#", "number": "6#" },
+      "Bb": { "solfeggio": "Sib", "number": "7b" }
     },
     {
-      "B": { "solfeggio": "si", "number": "7" }
+      "B": { "solfeggio": "Si", "number": "7" }
     },
     {
-      "C+": { "solfeggio": "do+", "number": "1+" }
+      "C+": { "solfeggio": "Do+", "number": "1+" }
     },
     {
-      "C#+": { "solfeggio": "do#+", "number": "1#+" }
+      "C#+": { "solfeggio": "Do#+", "number": "1#+" }
     },
     {
-      "D+": { "solfeggio": "re+", "number": "2+" }
+      "D+": { "solfeggio": "Re+", "number": "2+" }
     },
     {
-      "D#+": { "solfeggio": "re#+", "number": "2#+" },
-      "Eb+": { "solfeggio": "mib+", "number": "3b-" }
+      "D#+": { "solfeggio": "Re#+", "number": "2#+" },
+      "Eb+": { "solfeggio": "Mib-", "number": "3b+" }
     },
     {
-      "E+": { "solfeggio": "mi+", "number": "3+" }
+      "E+": { "solfeggio": "Mi+", "number": "3+" }
     },
     {
-      "F+": { "solfeggio": "fa+", "number": "4+" }
+      "F+": { "solfeggio": "Fa+", "number": "4+" }
     },
     {
-      "F#+": { "solfeggio": "fa#+", "number": "4#+" }
+      "F#+": { "solfeggio": "Fa#+", "number": "4#+" }
     },
     {
-      "G+": { "solfeggio": "so+", "number": "5+" }
+      "G+": { "solfeggio": "So+", "number": "5+" }
     },
     {
-      "G#+": { "solfeggio": "so#+", "number": "5#+" }
+      "G#+": { "solfeggio": "So#+", "number": "5#+" }
     }
   ]
 }

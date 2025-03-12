@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		81261B7E2D7FE323006A13EA /* WWTwelveEqualTemperament in Frameworks */ = {isa = PBXBuildFile; productRef = 81261B7D2D7FE323006A13EA /* WWTwelveEqualTemperament */; };
 		8133462E2D8005DC00E0B1BE /* WWTwelveEqualTemperament in Frameworks */ = {isa = PBXBuildFile; productRef = 8133462D2D8005DC00E0B1BE /* WWTwelveEqualTemperament */; };
-		813346312D80064600E0B1BE /* WWTwelveEqualTemperament in Frameworks */ = {isa = PBXBuildFile; productRef = 813346302D80064600E0B1BE /* WWTwelveEqualTemperament */; };
+		8170D9342D81235700AA965C /* WWTwelveEqualTemperament in Frameworks */ = {isa = PBXBuildFile; productRef = 8170D9332D81235700AA965C /* WWTwelveEqualTemperament */; };
 		817567FC2CA2C2B400B24577 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817567FB2CA2C2B400B24577 /* AppDelegate.swift */; };
 		817568002CA2C2B400B24577 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817567FF2CA2C2B400B24577 /* ViewController.swift */; };
 		817568032CA2C2B400B24577 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 817568012CA2C2B400B24577 /* Main.storyboard */; };
 		817568052CA2C2B500B24577 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 817568042CA2C2B500B24577 /* Assets.xcassets */; };
 		817568082CA2C2B500B24577 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 817568062CA2C2B500B24577 /* LaunchScreen.storyboard */; };
+		819E27B42D8135C2003D2C6B /* WWTwelveEqualTemperament in Frameworks */ = {isa = PBXBuildFile; productRef = 819E27B32D8135C2003D2C6B /* WWTwelveEqualTemperament */; };
 		81F55D722D7FE7A1004E763C /* WWTwelveEqualTemperament in Frameworks */ = {isa = PBXBuildFile; productRef = 81F55D712D7FE7A1004E763C /* WWTwelveEqualTemperament */; };
 /* End PBXBuildFile section */
 
@@ -36,7 +37,8 @@
 				8133462E2D8005DC00E0B1BE /* WWTwelveEqualTemperament in Frameworks */,
 				81261B7E2D7FE323006A13EA /* WWTwelveEqualTemperament in Frameworks */,
 				81F55D722D7FE7A1004E763C /* WWTwelveEqualTemperament in Frameworks */,
-				813346312D80064600E0B1BE /* WWTwelveEqualTemperament in Frameworks */,
+				8170D9342D81235700AA965C /* WWTwelveEqualTemperament in Frameworks */,
+				819E27B42D8135C2003D2C6B /* WWTwelveEqualTemperament in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,7 +134,8 @@
 				81261B7D2D7FE323006A13EA /* WWTwelveEqualTemperament */,
 				81F55D712D7FE7A1004E763C /* WWTwelveEqualTemperament */,
 				8133462D2D8005DC00E0B1BE /* WWTwelveEqualTemperament */,
-				813346302D80064600E0B1BE /* WWTwelveEqualTemperament */,
+				8170D9332D81235700AA965C /* WWTwelveEqualTemperament */,
+				819E27B32D8135C2003D2C6B /* WWTwelveEqualTemperament */,
 			);
 			productName = Example;
 			productReference = 817567F82CA2C2B400B24577 /* Example.app */;
@@ -163,7 +166,7 @@
 			);
 			mainGroup = 817567EF2CA2C2B400B24577;
 			packageReferences = (
-				8133462F2D80064600E0B1BE /* XCRemoteSwiftPackageReference "WWTwelveEqualTemperament" */,
+				819E27B22D8135C2003D2C6B /* XCRemoteSwiftPackageReference "WWTwelveEqualTemperament" */,
 			);
 			productRefGroup = 817567F92CA2C2B400B24577 /* Products */;
 			projectDirPath = "";
@@ -428,12 +431,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		8133462F2D80064600E0B1BE /* XCRemoteSwiftPackageReference "WWTwelveEqualTemperament" */ = {
+		819E27B22D8135C2003D2C6B /* XCRemoteSwiftPackageReference "WWTwelveEqualTemperament" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/William-Weng/WWTwelveEqualTemperament";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.0.2;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -447,9 +450,13 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = WWTwelveEqualTemperament;
 		};
-		813346302D80064600E0B1BE /* WWTwelveEqualTemperament */ = {
+		8170D9332D81235700AA965C /* WWTwelveEqualTemperament */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 8133462F2D80064600E0B1BE /* XCRemoteSwiftPackageReference "WWTwelveEqualTemperament" */;
+			productName = WWTwelveEqualTemperament;
+		};
+		819E27B32D8135C2003D2C6B /* WWTwelveEqualTemperament */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 819E27B22D8135C2003D2C6B /* XCRemoteSwiftPackageReference "WWTwelveEqualTemperament" */;
 			productName = WWTwelveEqualTemperament;
 		};
 		81F55D712D7FE7A1004E763C /* WWTwelveEqualTemperament */ = {

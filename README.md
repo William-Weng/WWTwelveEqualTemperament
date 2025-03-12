@@ -12,7 +12,7 @@
 
 ```bash
 dependencies: [
-    .package(url: "https://github.com/William-Weng/WWTwelveEqualTemperament.git", .upToNextMajor(from: "1.0.0"))
+    .package(url: "https://github.com/William-Weng/WWTwelveEqualTemperament.git", .upToNextMajor(from: "1.0.2"))
 ]
 ```
 
@@ -20,6 +20,7 @@ dependencies: [
 |函式|功能|
 |-|-|
 |table(baseFrequency:type:)|產生十二平均率字典|
+|pianoTable(type:)|產生88鍵鋼琴頻率字典|
 
 ## Example
 ```swift
@@ -31,7 +32,8 @@ final class ViewController: UIViewController {
     @IBOutlet weak var label: UILabel!
     
     @IBAction func demo(_ sender: UIButton) {
-        if let table = WWTwelveEqualTemperament.shared.table(type: .solfeggio) { label.text = "\(table)" }
+        let table = WWTwelveEqualTemperament.shared.table(type: .solfeggio)
+        label.text = "\(table)"
     }
 }
 ```
