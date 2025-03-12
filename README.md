@@ -4,7 +4,7 @@
 
 ## [Introduction - 簡介](https://swiftpackageindex.com/William-Weng)
 - [A small program that generates 12 equal temperament.](https://zh.wikipedia.org/zh-tw/十二平均律)
-- [產生十二平均率的小程式。](https://zh.pngtree.com/freebackground/music-dream-piano-training-poster_1129277.html)
+- [產生十二平均律的小程式。](https://zh.pngtree.com/freebackground/music-dream-piano-training-poster_1129277.html)
 
 ![](./Example.png)
 
@@ -19,7 +19,7 @@ dependencies: [
 ### [Function - 可用函式](https://ezgif.com/video-to-webp)
 |函式|功能|
 |-|-|
-|table(baseFrequency:type:)|產生十二平均率字典|
+|table(baseFrequency:type:)|產生十二平均律字典|
 |pianoTable(type:)|產生88鍵鋼琴頻率字典|
 
 ## Example

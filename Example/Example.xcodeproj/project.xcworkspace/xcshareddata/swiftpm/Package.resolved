@@ -6,8 +6,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/William-Weng/WWTwelveEqualTemperament",
       "state" : {
-        "revision" : "29d6ba9725d19f46cefd24f4677cb5854e613676",
-        "version" : "1.0.1"
+        "revision" : "1e44329f6dd26f1ac996ca72be6f25fbe31cdf1d",
+        "version" : "1.0.2"
       }
     }
   ],

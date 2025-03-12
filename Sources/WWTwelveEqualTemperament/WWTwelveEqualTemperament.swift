@@ -7,7 +7,7 @@
 
 import UIKit
 
-// MARK: - 計算十二平均率
+// MARK: - 計算十二平均律
 open class WWTwelveEqualTemperament {
     
     @MainActor public static let shared = WWTwelveEqualTemperament()
@@ -16,7 +16,7 @@ open class WWTwelveEqualTemperament {
 // MARK: - 公開函式
 public extension WWTwelveEqualTemperament {
     
-    /// [產生十二平均率字典](https://zh.wikipedia.org/zh-tw/十二平均律)
+    /// [產生十二平均律字典](https://zh.wikipedia.org/zh-tw/十二平均律)
     /// - Parameters:
     ///   - baseFrequency: [主音設為A4 (La) => 440Hz](https://zh.wikipedia.org/zh-tw/簡譜)
     ///   - type: [表格類型](https://youtu.be/7f2GWDXK7vw)
